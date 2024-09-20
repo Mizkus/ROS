@@ -1,0 +1,10 @@
+message;severity;node;stamp;location
+"Oh no! I hit the wall! (Clamping from [x=11.096445, y=5.544445])";"30";"turtlesim3.sim";"1726586978.638208004";"/home/kirill/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp:update:260"
+"Oh no! I hit the wall! (Clamping from [x=11.096445, y=5.544445])";"30";"turtlesim2.sim";"1726586978.632591045";"/home/kirill/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp:update:260"
+"Oh no! I hit the wall! (Clamping from [x=11.096445, y=5.544445])";"30";"turtlesim1.sim";"1726586978.536089551";"/home/kirill/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp:update:260"
+"Spawning turtle [turtle1] at x=[5.544445], y=[5.544445], theta=[0.000000]";"20";"turtlesim2.sim";"1726586960.804908274";"/home/kirill/ros2_ws/src/ros_tutorials/turtlesim/src/turtle_frame.cpp:spawnTurtle:209"
+"Starting turtlesim with node name /turtlesim2/sim";"20";"turtlesim2.sim";"1726586960.793230652";"/home/kirill/ros2_ws/src/ros_tutorials/turtlesim/src/turtle_frame.cpp:TurtleFrame:112"
+"Spawning turtle [turtle1] at x=[5.544445], y=[5.544445], theta=[0.000000]";"20";"turtlesim3.sim";"1726586960.793750834";"/home/kirill/ros2_ws/src/ros_tutorials/turtlesim/src/turtle_frame.cpp:spawnTurtle:209"
+"Starting turtlesim with node name /turtlesim3/sim";"20";"turtlesim3.sim";"1726586960.771814075";"/home/kirill/ros2_ws/src/ros_tutorials/turtlesim/src/turtle_frame.cpp:TurtleFrame:112"
+"Spawning turtle [turtle1] at x=[5.544445], y=[5.544445], theta=[0.000000]";"20";"turtlesim1.sim";"1726586960.788268530";"/home/kirill/ros2_ws/src/ros_tutorials/turtlesim/src/turtle_frame.cpp:spawnTurtle:209"
+"Starting turtlesim with node name /turtlesim1/sim";"20";"turtlesim1.sim";"1726586960.764987177";"/home/kirill/ros2_ws/src/ros_tutorials/turtlesim/src/turtle_frame.cpp:TurtleFrame:112"
