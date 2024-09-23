@@ -1,0 +1,6 @@
+{
+  "package_name": "action_turtle_message",
+  "non_idl_tuples": [
+    "/home/kirill/ROS/ex02/action_turtle_message:action/MessageTurtleCommands.action"
+  ]
+}

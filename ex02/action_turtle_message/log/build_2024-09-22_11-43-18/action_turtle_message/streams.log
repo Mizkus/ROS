@@ -1,0 +1,236 @@
+[0.015s] Invoking command in '/home/kirill/ROS/ex02/action_turtle_message/build/action_turtle_message': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kirill/ROS/ex01/install/service_full_name:/opt/ros/humble /usr/bin/cmake /home/kirill/ROS/ex02/action_turtle_message -DCMAKE_INSTALL_PREFIX=/home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message
+[0.156s] -- The C compiler identification is GNU 11.4.0
+[0.282s] -- The CXX compiler identification is GNU 11.4.0
+[0.295s] -- Detecting C compiler ABI info
+[0.416s] -- Detecting C compiler ABI info - done
+[0.426s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.427s] -- Detecting C compile features
+[0.428s] -- Detecting C compile features - done
+[0.432s] -- Detecting CXX compiler ABI info
+[0.548s] -- Detecting CXX compiler ABI info - done
+[0.572s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.573s] -- Detecting CXX compile features
+[0.574s] -- Detecting CXX compile features - done
+[0.586s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.830s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.987s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.993s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.002s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.076s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.518s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.818s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.203s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.245s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.250s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.301s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.301s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.301s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.301s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.330s] -- Found PythonExtra: .so  
+[2.392s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.427s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.428s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/kirill/ROS/ex02/action_turtle_message/build/action_turtle_message/rosidl_generator_c>;$<BUILD_INTERFACE:/home/kirill/ROS/ex02/action_turtle_message/build/action_turtle_message/rosidl_typesupport_fastrtps_c>;$<BUILD_INTERFACE:/home/kirill/ROS/ex02/action_turtle_message/build/action_turtle_message/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/home/kirill/ROS/ex02/action_turtle_message/build/action_turtle_message/rosidl_generator_cpp>;$<BUILD_INTERFACE:/home/kirill/ROS/ex02/action_turtle_message/build/action_turtle_message/rosidl_typesupport_fastrtps_cpp>;$<BUILD_INTERFACE:/home/kirill/ROS/ex02/action_turtle_message/build/action_turtle_message/rosidl_typesupport_introspection_cpp>;/home/kirill/ROS/ex02/action_turtle_message/build/action_turtle_message/rosidl_generator_c;/home/kirill/ROS/ex02/action_turtle_message/build/action_turtle_message/rosidl_generator_py
+[2.428s] -- Configured cppcheck exclude dirs and/or files: 
+[2.430s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.434s] -- Added test 'lint_cmake' to check CMake code style
+[2.436s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.448s] -- Added test 'uncrustify' to check C / C++ code style
+[2.448s] -- Configured uncrustify additional arguments: 
+[2.450s] -- Added test 'xmllint' to check XML markup files
+[2.454s] -- Configuring done
+[2.498s] -- Generating done
+[2.502s] -- Build files have been written to: /home/kirill/ROS/ex02/action_turtle_message/build/action_turtle_message
+[2.511s] Invoked command in '/home/kirill/ROS/ex02/action_turtle_message/build/action_turtle_message' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kirill/ROS/ex01/install/service_full_name:/opt/ros/humble /usr/bin/cmake /home/kirill/ROS/ex02/action_turtle_message -DCMAKE_INSTALL_PREFIX=/home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message
+[2.514s] Invoking command in '/home/kirill/ROS/ex02/action_turtle_message/build/action_turtle_message': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kirill/ROS/ex01/install/service_full_name:/opt/ros/humble /usr/bin/cmake --build /home/kirill/ROS/ex02/action_turtle_message/build/action_turtle_message -- -j8 -l8
+[2.589s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.604s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.621s] [  6%] Built target ament_cmake_python_copy_action_turtle_message
+[2.942s] running egg_info
+[2.943s] creating action_turtle_message.egg-info
+[2.944s] writing action_turtle_message.egg-info/PKG-INFO
+[2.944s] writing dependency_links to action_turtle_message.egg-info/dependency_links.txt
+[2.944s] writing top-level names to action_turtle_message.egg-info/top_level.txt
+[2.944s] writing manifest file 'action_turtle_message.egg-info/SOURCES.txt'
+[2.948s] reading manifest file 'action_turtle_message.egg-info/SOURCES.txt'
+[2.949s] writing manifest file 'action_turtle_message.egg-info/SOURCES.txt'
+[2.997s] [  6%] Built target ament_cmake_python_build_action_turtle_message_egg
+[3.250s] [  6%] Built target action_turtle_message__cpp
+[3.266s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.266s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.266s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.271s] [ 19%] [32mBuilding C object CMakeFiles/action_turtle_message__rosidl_generator_c.dir/rosidl_generator_c/action_turtle_message/action/detail/message_turtle_commands__functions.c.o[0m
+[3.491s] [ 22%] [32m[1mLinking C shared library libaction_turtle_message__rosidl_generator_c.so[0m
+[3.548s] [ 22%] Built target action_turtle_message__rosidl_generator_c
+[3.566s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.566s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.566s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.771s] [ 35%] [32mBuilding CXX object CMakeFiles/action_turtle_message__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/action_turtle_message/action/message_turtle_commands__type_support.cpp.o[0m
+[3.945s] [ 38%] [32mBuilding CXX object CMakeFiles/action_turtle_message__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/action_turtle_message/action/detail/dds_fastrtps/message_turtle_commands__type_support.cpp.o[0m
+[3.996s] [ 41%] [32mBuilding CXX object CMakeFiles/action_turtle_message__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/action_turtle_message/action/detail/message_turtle_commands__type_support.cpp.o[0m
+[4.340s] [ 45%] [32mBuilding CXX object CMakeFiles/action_turtle_message__rosidl_typesupport_c.dir/rosidl_typesupport_c/action_turtle_message/action/message_turtle_commands__type_support.cpp.o[0m
+[4.403s] [ 48%] [32mBuilding C object CMakeFiles/action_turtle_message__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/action_turtle_message/action/detail/message_turtle_commands__type_support.c.o[0m
+[4.475s] [ 51%] [32m[1mLinking CXX shared library libaction_turtle_message__rosidl_typesupport_c.so[0m
+[4.499s] [ 54%] [32m[1mLinking C shared library libaction_turtle_message__rosidl_typesupport_introspection_c.so[0m
+[4.532s] [ 58%] [32mBuilding CXX object CMakeFiles/action_turtle_message__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/action_turtle_message/action/detail/message_turtle_commands__type_support_c.cpp.o[0m
+[4.566s] [ 58%] Built target action_turtle_message__rosidl_typesupport_c
+[4.576s] [ 58%] Built target action_turtle_message__rosidl_typesupport_introspection_c
+[4.627s] [ 61%] [32m[1mLinking CXX shared library libaction_turtle_message__rosidl_typesupport_cpp.so[0m
+[4.693s] [ 61%] Built target action_turtle_message__rosidl_typesupport_cpp
+[4.908s] [ 64%] [32m[1mLinking CXX shared library libaction_turtle_message__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.921s] [ 67%] [32m[1mLinking CXX shared library libaction_turtle_message__rosidl_typesupport_introspection_cpp.so[0m
+[5.062s] [ 67%] Built target action_turtle_message__rosidl_typesupport_fastrtps_cpp
+[5.065s] [ 67%] Built target action_turtle_message__rosidl_typesupport_introspection_cpp
+[5.081s] [ 70%] [32m[1mLinking CXX shared library libaction_turtle_message__rosidl_typesupport_fastrtps_c.so[0m
+[5.199s] [ 70%] Built target action_turtle_message__rosidl_typesupport_fastrtps_c
+[5.243s] [ 70%] Built target action_turtle_message
+[5.284s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[6.269s] [ 74%] Built target action_turtle_message__py
+[6.302s] [ 77%] [32mBuilding C object CMakeFiles/action_turtle_message__rosidl_generator_py.dir/rosidl_generator_py/action_turtle_message/action/_message_turtle_commands_s.c.o[0m
+[6.505s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/action_turtle_message/libaction_turtle_message__rosidl_generator_py.so[0m
+[6.573s] [ 80%] Built target action_turtle_message__rosidl_generator_py
+[6.605s] [ 90%] [32mBuilding C object CMakeFiles/action_turtle_message__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/action_turtle_message/_action_turtle_message_s.ep.rosidl_typesupport_c.c.o[0m
+[6.605s] [ 90%] [32mBuilding C object CMakeFiles/action_turtle_message__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/action_turtle_message/_action_turtle_message_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[6.605s] [ 90%] [32mBuilding C object CMakeFiles/action_turtle_message__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/action_turtle_message/_action_turtle_message_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.787s] [100%] [32m[1mLinking C shared library rosidl_generator_py/action_turtle_message/action_turtle_message_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.787s] [100%] [32m[1mLinking C shared library rosidl_generator_py/action_turtle_message/action_turtle_message_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.787s] [100%] [32m[1mLinking C shared library rosidl_generator_py/action_turtle_message/action_turtle_message_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.849s] [100%] Built target action_turtle_message__rosidl_typesupport_introspection_c__pyext
+[6.849s] [100%] Built target action_turtle_message__rosidl_typesupport_c__pyext
+[6.849s] [100%] Built target action_turtle_message__rosidl_typesupport_fastrtps_c__pyext
+[6.868s] Invoked command in '/home/kirill/ROS/ex02/action_turtle_message/build/action_turtle_message' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kirill/ROS/ex01/install/service_full_name:/opt/ros/humble /usr/bin/cmake --build /home/kirill/ROS/ex02/action_turtle_message/build/action_turtle_message -- -j8 -l8
+[6.982s] Invoking command in '/home/kirill/ROS/ex02/action_turtle_message/build/action_turtle_message': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kirill/ROS/ex01/install/service_full_name:/opt/ros/humble /usr/bin/cmake --install /home/kirill/ROS/ex02/action_turtle_message/build/action_turtle_message
+[6.994s] -- Install configuration: ""
+[6.994s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/share/ament_index/resource_index/rosidl_interfaces/action_turtle_message
+[6.994s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/include/action_turtle_message/action_turtle_message
+[6.994s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/include/action_turtle_message/action_turtle_message/msg
+[6.995s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/include/action_turtle_message/action_turtle_message/msg/rosidl_generator_c__visibility_control.h
+[6.995s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/include/action_turtle_message/action_turtle_message/action
+[6.995s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/include/action_turtle_message/action_turtle_message/action/detail
+[6.995s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/include/action_turtle_message/action_turtle_message/action/detail/message_turtle_commands__type_support.h
+[6.995s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/include/action_turtle_message/action_turtle_message/action/detail/message_turtle_commands__struct.h
+[6.996s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/include/action_turtle_message/action_turtle_message/action/detail/message_turtle_commands__functions.c
+[6.996s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/include/action_turtle_message/action_turtle_message/action/detail/message_turtle_commands__functions.h
+[6.996s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/include/action_turtle_message/action_turtle_message/action/message_turtle_commands.h
+[6.996s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/share/action_turtle_message/environment/library_path.sh
+[6.996s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/share/action_turtle_message/environment/library_path.dsv
+[6.997s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/lib/libaction_turtle_message__rosidl_generator_c.so
+[6.997s] -- Set runtime path of "/home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/lib/libaction_turtle_message__rosidl_generator_c.so" to ""
+[6.997s] -- Up-to-date: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/include/action_turtle_message/action_turtle_message
+[6.997s] -- Up-to-date: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/include/action_turtle_message/action_turtle_message/msg
+[6.998s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/include/action_turtle_message/action_turtle_message/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.998s] -- Up-to-date: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/include/action_turtle_message/action_turtle_message/action
+[6.998s] -- Up-to-date: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/include/action_turtle_message/action_turtle_message/action/detail
+[6.998s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/include/action_turtle_message/action_turtle_message/action/detail/message_turtle_commands__rosidl_typesupport_fastrtps_c.h
+[6.998s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/lib/libaction_turtle_message__rosidl_typesupport_fastrtps_c.so
+[6.999s] -- Set runtime path of "/home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/lib/libaction_turtle_message__rosidl_typesupport_fastrtps_c.so" to ""
+[6.999s] -- Up-to-date: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/include/action_turtle_message/action_turtle_message
+[6.999s] -- Up-to-date: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/include/action_turtle_message/action_turtle_message/msg
+[6.999s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/include/action_turtle_message/action_turtle_message/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.999s] -- Up-to-date: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/include/action_turtle_message/action_turtle_message/action
+[7.000s] -- Up-to-date: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/include/action_turtle_message/action_turtle_message/action/detail
+[7.000s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/include/action_turtle_message/action_turtle_message/action/detail/message_turtle_commands__type_support.c
+[7.000s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/include/action_turtle_message/action_turtle_message/action/detail/message_turtle_commands__rosidl_typesupport_introspection_c.h
+[7.000s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/lib/libaction_turtle_message__rosidl_typesupport_introspection_c.so
+[7.000s] -- Set runtime path of "/home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/lib/libaction_turtle_message__rosidl_typesupport_introspection_c.so" to ""
+[7.001s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/lib/libaction_turtle_message__rosidl_typesupport_c.so
+[7.001s] -- Set runtime path of "/home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/lib/libaction_turtle_message__rosidl_typesupport_c.so" to ""
+[7.001s] -- Up-to-date: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/include/action_turtle_message/action_turtle_message
+[7.001s] -- Up-to-date: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/include/action_turtle_message/action_turtle_message/action
+[7.001s] -- Up-to-date: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/include/action_turtle_message/action_turtle_message/action/detail
+[7.001s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/include/action_turtle_message/action_turtle_message/action/detail/message_turtle_commands__traits.hpp
+[7.002s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/include/action_turtle_message/action_turtle_message/action/detail/message_turtle_commands__builder.hpp
+[7.002s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/include/action_turtle_message/action_turtle_message/action/detail/message_turtle_commands__struct.hpp
+[7.002s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/include/action_turtle_message/action_turtle_message/action/message_turtle_commands.hpp
+[7.002s] -- Up-to-date: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/include/action_turtle_message/action_turtle_message
+[7.003s] -- Up-to-date: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/include/action_turtle_message/action_turtle_message/msg
+[7.003s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/include/action_turtle_message/action_turtle_message/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.003s] -- Up-to-date: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/include/action_turtle_message/action_turtle_message/action
+[7.003s] -- Up-to-date: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/include/action_turtle_message/action_turtle_message/action/detail
+[7.003s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/include/action_turtle_message/action_turtle_message/action/detail/message_turtle_commands__rosidl_typesupport_fastrtps_cpp.hpp
+[7.003s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/include/action_turtle_message/action_turtle_message/action/detail/dds_fastrtps
+[7.004s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/lib/libaction_turtle_message__rosidl_typesupport_fastrtps_cpp.so
+[7.004s] -- Set runtime path of "/home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/lib/libaction_turtle_message__rosidl_typesupport_fastrtps_cpp.so" to ""
+[7.004s] -- Up-to-date: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/include/action_turtle_message/action_turtle_message
+[7.005s] -- Up-to-date: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/include/action_turtle_message/action_turtle_message/action
+[7.005s] -- Up-to-date: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/include/action_turtle_message/action_turtle_message/action/detail
+[7.005s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/include/action_turtle_message/action_turtle_message/action/detail/message_turtle_commands__type_support.cpp
+[7.005s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/include/action_turtle_message/action_turtle_message/action/detail/message_turtle_commands__rosidl_typesupport_introspection_cpp.hpp
+[7.006s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/lib/libaction_turtle_message__rosidl_typesupport_introspection_cpp.so
+[7.006s] -- Set runtime path of "/home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/lib/libaction_turtle_message__rosidl_typesupport_introspection_cpp.so" to ""
+[7.006s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/lib/libaction_turtle_message__rosidl_typesupport_cpp.so
+[7.006s] -- Set runtime path of "/home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/lib/libaction_turtle_message__rosidl_typesupport_cpp.so" to ""
+[7.006s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/share/action_turtle_message/environment/pythonpath.sh
+[7.007s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/share/action_turtle_message/environment/pythonpath.dsv
+[7.007s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/local/lib/python3.10/dist-packages/action_turtle_message-0.0.0-py3.10.egg-info
+[7.007s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/local/lib/python3.10/dist-packages/action_turtle_message-0.0.0-py3.10.egg-info/dependency_links.txt
+[7.007s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/local/lib/python3.10/dist-packages/action_turtle_message-0.0.0-py3.10.egg-info/SOURCES.txt
+[7.008s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/local/lib/python3.10/dist-packages/action_turtle_message-0.0.0-py3.10.egg-info/top_level.txt
+[7.008s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/local/lib/python3.10/dist-packages/action_turtle_message-0.0.0-py3.10.egg-info/PKG-INFO
+[7.008s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/local/lib/python3.10/dist-packages/action_turtle_message
+[7.008s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/local/lib/python3.10/dist-packages/action_turtle_message/_action_turtle_message_s.ep.rosidl_typesupport_fastrtps_c.c
+[7.008s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/local/lib/python3.10/dist-packages/action_turtle_message/action_turtle_message_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.009s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/local/lib/python3.10/dist-packages/action_turtle_message/__init__.py
+[7.009s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/local/lib/python3.10/dist-packages/action_turtle_message/action_turtle_message_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.009s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/local/lib/python3.10/dist-packages/action_turtle_message/action_turtle_message_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.009s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/local/lib/python3.10/dist-packages/action_turtle_message/_action_turtle_message_s.ep.rosidl_typesupport_introspection_c.c
+[7.009s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/local/lib/python3.10/dist-packages/action_turtle_message/libaction_turtle_message__rosidl_generator_py.so
+[7.009s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/local/lib/python3.10/dist-packages/action_turtle_message/_action_turtle_message_s.ep.rosidl_typesupport_c.c
+[7.010s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/local/lib/python3.10/dist-packages/action_turtle_message/action
+[7.010s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/local/lib/python3.10/dist-packages/action_turtle_message/action/__init__.py
+[7.010s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/local/lib/python3.10/dist-packages/action_turtle_message/action/_message_turtle_commands.py
+[7.010s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/local/lib/python3.10/dist-packages/action_turtle_message/action/_message_turtle_commands_s.c
+[7.061s] Listing '/home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/local/lib/python3.10/dist-packages/action_turtle_message'...
+[7.061s] Compiling '/home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/local/lib/python3.10/dist-packages/action_turtle_message/__init__.py'...
+[7.061s] Listing '/home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/local/lib/python3.10/dist-packages/action_turtle_message/action'...
+[7.062s] Compiling '/home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/local/lib/python3.10/dist-packages/action_turtle_message/action/__init__.py'...
+[7.062s] Compiling '/home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/local/lib/python3.10/dist-packages/action_turtle_message/action/_message_turtle_commands.py'...
+[7.069s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/local/lib/python3.10/dist-packages/action_turtle_message/action_turtle_message_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.070s] -- Set runtime path of "/home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/local/lib/python3.10/dist-packages/action_turtle_message/action_turtle_message_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[7.070s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/local/lib/python3.10/dist-packages/action_turtle_message/action_turtle_message_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.071s] -- Set runtime path of "/home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/local/lib/python3.10/dist-packages/action_turtle_message/action_turtle_message_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[7.072s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/local/lib/python3.10/dist-packages/action_turtle_message/action_turtle_message_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.073s] -- Set runtime path of "/home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/local/lib/python3.10/dist-packages/action_turtle_message/action_turtle_message_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[7.073s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/lib/libaction_turtle_message__rosidl_generator_py.so
+[7.074s] -- Set runtime path of "/home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/lib/libaction_turtle_message__rosidl_generator_py.so" to ""
+[7.075s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/share/action_turtle_message/action/MessageTurtleCommands.idl
+[7.075s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/share/action_turtle_message/action/MessageTurtleCommands.action
+[7.076s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/share/ament_index/resource_index/package_run_dependencies/action_turtle_message
+[7.076s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/share/ament_index/resource_index/parent_prefix_path/action_turtle_message
+[7.077s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/share/action_turtle_message/environment/ament_prefix_path.sh
+[7.077s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/share/action_turtle_message/environment/ament_prefix_path.dsv
+[7.078s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/share/action_turtle_message/environment/path.sh
+[7.079s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/share/action_turtle_message/environment/path.dsv
+[7.079s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/share/action_turtle_message/local_setup.bash
+[7.080s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/share/action_turtle_message/local_setup.sh
+[7.080s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/share/action_turtle_message/local_setup.zsh
+[7.081s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/share/action_turtle_message/local_setup.dsv
+[7.081s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/share/action_turtle_message/package.dsv
+[7.082s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/share/ament_index/resource_index/packages/action_turtle_message
+[7.082s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/share/action_turtle_message/cmake/export_action_turtle_message__rosidl_generator_cExport.cmake
+[7.083s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/share/action_turtle_message/cmake/export_action_turtle_message__rosidl_generator_cExport-noconfig.cmake
+[7.084s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/share/action_turtle_message/cmake/export_action_turtle_message__rosidl_typesupport_fastrtps_cExport.cmake
+[7.084s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/share/action_turtle_message/cmake/export_action_turtle_message__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[7.085s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/share/action_turtle_message/cmake/action_turtle_message__rosidl_typesupport_introspection_cExport.cmake
+[7.085s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/share/action_turtle_message/cmake/action_turtle_message__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.086s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/share/action_turtle_message/cmake/action_turtle_message__rosidl_typesupport_cExport.cmake
+[7.086s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/share/action_turtle_message/cmake/action_turtle_message__rosidl_typesupport_cExport-noconfig.cmake
+[7.087s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/share/action_turtle_message/cmake/export_action_turtle_message__rosidl_generator_cppExport.cmake
+[7.087s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/share/action_turtle_message/cmake/export_action_turtle_message__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.088s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/share/action_turtle_message/cmake/export_action_turtle_message__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[7.088s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/share/action_turtle_message/cmake/action_turtle_message__rosidl_typesupport_introspection_cppExport.cmake
+[7.089s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/share/action_turtle_message/cmake/action_turtle_message__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.089s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/share/action_turtle_message/cmake/action_turtle_message__rosidl_typesupport_cppExport.cmake
+[7.090s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/share/action_turtle_message/cmake/action_turtle_message__rosidl_typesupport_cppExport-noconfig.cmake
+[7.091s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/share/action_turtle_message/cmake/export_action_turtle_message__rosidl_generator_pyExport.cmake
+[7.091s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/share/action_turtle_message/cmake/export_action_turtle_message__rosidl_generator_pyExport-noconfig.cmake
+[7.092s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/share/action_turtle_message/cmake/rosidl_cmake-extras.cmake
+[7.092s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/share/action_turtle_message/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.092s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/share/action_turtle_message/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.093s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/share/action_turtle_message/cmake/ament_cmake_export_libraries-extras.cmake
+[7.093s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/share/action_turtle_message/cmake/ament_cmake_export_targets-extras.cmake
+[7.093s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/share/action_turtle_message/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.094s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/share/action_turtle_message/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.094s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/share/action_turtle_message/cmake/action_turtle_messageConfig.cmake
+[7.095s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/share/action_turtle_message/cmake/action_turtle_messageConfig-version.cmake
+[7.095s] -- Installing: /home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/share/action_turtle_message/package.xml
+[7.102s] Invoked command in '/home/kirill/ROS/ex02/action_turtle_message/build/action_turtle_message' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kirill/ROS/ex01/install/service_full_name:/opt/ros/humble /usr/bin/cmake --install /home/kirill/ROS/ex02/action_turtle_message/build/action_turtle_message

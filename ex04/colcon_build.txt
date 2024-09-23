@@ -1,4 +1,0 @@
-Starting >>> mizkus
-Finished <<< mizkus [0.99s]
-
-Summary: 1 package finished [1.31s]

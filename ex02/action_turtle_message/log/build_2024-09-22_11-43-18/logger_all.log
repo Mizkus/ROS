@@ -1,0 +1,118 @@
+[0.175s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.175s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x75192ff2eb60>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x75192ff2e5f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x75192ff2e5f0>>, mixin_verb=('build',))
+[0.433s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.433s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.433s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.433s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.433s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.433s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.433s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/kirill/ROS/ex02/action_turtle_message'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.449s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'action_turtle_message'
+[0.449s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.449s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.450s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.450s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.450s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.495s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.495s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.497s] WARNING:colcon.colcon_core.prefix_path.colcon:The path '/home/kirill/ROS/ex01/install' in the environment variable COLCON_PREFIX_PATH doesn't exist
+[0.497s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/kirill/ROS/ex01/install/service_full_name' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.497s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/kirill/ROS/ex01/install/full_name_pkg' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.497s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/kirill/ROS/ex01/install/full_name_pkg' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.499s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/kirill/ros2_ws/install
+[0.501s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[0.503s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'action_turtle_message' build argument 'cmake_args' from command line to 'None'
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'action_turtle_message' build argument 'cmake_target' from command line to 'None'
+[0.577s] Level 5:colcon.colcon_core.verb:set package 'action_turtle_message' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.577s] Level 5:colcon.colcon_core.verb:set package 'action_turtle_message' build argument 'cmake_clean_cache' from command line to 'False'
+[0.577s] Level 5:colcon.colcon_core.verb:set package 'action_turtle_message' build argument 'cmake_clean_first' from command line to 'False'
+[0.577s] Level 5:colcon.colcon_core.verb:set package 'action_turtle_message' build argument 'cmake_force_configure' from command line to 'False'
+[0.577s] Level 5:colcon.colcon_core.verb:set package 'action_turtle_message' build argument 'ament_cmake_args' from command line to 'None'
+[0.577s] Level 5:colcon.colcon_core.verb:set package 'action_turtle_message' build argument 'catkin_cmake_args' from command line to 'None'
+[0.577s] Level 5:colcon.colcon_core.verb:set package 'action_turtle_message' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.577s] DEBUG:colcon.colcon_core.verb:Building package 'action_turtle_message' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kirill/ROS/ex02/action_turtle_message/build/action_turtle_message', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message', 'merge_install': False, 'path': '/home/kirill/ROS/ex02/action_turtle_message', 'symlink_install': False, 'test_result_base': None}
+[0.577s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.578s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.578s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kirill/ROS/ex02/action_turtle_message' with build type 'ament_cmake'
+[0.578s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kirill/ROS/ex02/action_turtle_message'
+[0.583s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.583s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.583s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.595s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kirill/ROS/ex02/action_turtle_message/build/action_turtle_message': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kirill/ROS/ex01/install/service_full_name:/opt/ros/humble /usr/bin/cmake /home/kirill/ROS/ex02/action_turtle_message -DCMAKE_INSTALL_PREFIX=/home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message
+[3.091s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kirill/ROS/ex02/action_turtle_message/build/action_turtle_message' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kirill/ROS/ex01/install/service_full_name:/opt/ros/humble /usr/bin/cmake /home/kirill/ROS/ex02/action_turtle_message -DCMAKE_INSTALL_PREFIX=/home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message
+[3.093s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kirill/ROS/ex02/action_turtle_message/build/action_turtle_message': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kirill/ROS/ex01/install/service_full_name:/opt/ros/humble /usr/bin/cmake --build /home/kirill/ROS/ex02/action_turtle_message/build/action_turtle_message -- -j8 -l8
+[7.447s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kirill/ROS/ex02/action_turtle_message/build/action_turtle_message' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kirill/ROS/ex01/install/service_full_name:/opt/ros/humble /usr/bin/cmake --build /home/kirill/ROS/ex02/action_turtle_message/build/action_turtle_message -- -j8 -l8
+[7.561s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kirill/ROS/ex02/action_turtle_message/build/action_turtle_message': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kirill/ROS/ex01/install/service_full_name:/opt/ros/humble /usr/bin/cmake --install /home/kirill/ROS/ex02/action_turtle_message/build/action_turtle_message
+[7.680s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(action_turtle_message)
+[7.682s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kirill/ROS/ex02/action_turtle_message/build/action_turtle_message' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kirill/ROS/ex01/install/service_full_name:/opt/ros/humble /usr/bin/cmake --install /home/kirill/ROS/ex02/action_turtle_message/build/action_turtle_message
+[7.690s] Level 1:colcon.colcon_core.environment:checking '/home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message' for CMake module files
+[7.691s] Level 1:colcon.colcon_core.environment:checking '/home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message' for CMake config files
+[7.691s] Level 1:colcon.colcon_core.shell:create_environment_hook('action_turtle_message', 'cmake_prefix_path')
+[7.691s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/share/action_turtle_message/hook/cmake_prefix_path.ps1'
+[7.692s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/share/action_turtle_message/hook/cmake_prefix_path.dsv'
+[7.693s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/share/action_turtle_message/hook/cmake_prefix_path.sh'
+[7.694s] Level 1:colcon.colcon_core.environment:checking '/home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/lib'
+[7.694s] Level 1:colcon.colcon_core.shell:create_environment_hook('action_turtle_message', 'ld_library_path_lib')
+[7.695s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/share/action_turtle_message/hook/ld_library_path_lib.ps1'
+[7.695s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/share/action_turtle_message/hook/ld_library_path_lib.dsv'
+[7.696s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/share/action_turtle_message/hook/ld_library_path_lib.sh'
+[7.697s] Level 1:colcon.colcon_core.environment:checking '/home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/bin'
+[7.697s] Level 1:colcon.colcon_core.environment:checking '/home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/lib/pkgconfig/action_turtle_message.pc'
+[7.698s] Level 1:colcon.colcon_core.environment:checking '/home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/lib/python3.10/site-packages'
+[7.698s] Level 1:colcon.colcon_core.environment:checking '/home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/bin'
+[7.699s] INFO:colcon.colcon_core.shell:Creating package script '/home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/share/action_turtle_message/package.ps1'
+[7.701s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/share/action_turtle_message/package.dsv'
+[7.702s] INFO:colcon.colcon_core.shell:Creating package script '/home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/share/action_turtle_message/package.sh'
+[7.704s] INFO:colcon.colcon_core.shell:Creating package script '/home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/share/action_turtle_message/package.bash'
+[7.706s] INFO:colcon.colcon_core.shell:Creating package script '/home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/share/action_turtle_message/package.zsh'
+[7.708s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/share/colcon-core/packages/action_turtle_message)
+[7.849s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(action_turtle_message)
+[7.850s] Level 1:colcon.colcon_core.environment:checking '/home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message' for CMake module files
+[7.851s] Level 1:colcon.colcon_core.environment:checking '/home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message' for CMake config files
+[7.851s] Level 1:colcon.colcon_core.shell:create_environment_hook('action_turtle_message', 'cmake_prefix_path')
+[7.852s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/share/action_turtle_message/hook/cmake_prefix_path.ps1'
+[7.852s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/share/action_turtle_message/hook/cmake_prefix_path.dsv'
+[7.852s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/share/action_turtle_message/hook/cmake_prefix_path.sh'
+[7.853s] Level 1:colcon.colcon_core.environment:checking '/home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/lib'
+[7.853s] Level 1:colcon.colcon_core.shell:create_environment_hook('action_turtle_message', 'ld_library_path_lib')
+[7.853s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/share/action_turtle_message/hook/ld_library_path_lib.ps1'
+[7.854s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/share/action_turtle_message/hook/ld_library_path_lib.dsv'
+[7.854s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/share/action_turtle_message/hook/ld_library_path_lib.sh'
+[7.854s] Level 1:colcon.colcon_core.environment:checking '/home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/bin'
+[7.854s] Level 1:colcon.colcon_core.environment:checking '/home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/lib/pkgconfig/action_turtle_message.pc'
+[7.855s] Level 1:colcon.colcon_core.environment:checking '/home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/lib/python3.10/site-packages'
+[7.855s] Level 1:colcon.colcon_core.environment:checking '/home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/bin'
+[7.855s] INFO:colcon.colcon_core.shell:Creating package script '/home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/share/action_turtle_message/package.ps1'
+[7.856s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/share/action_turtle_message/package.dsv'
+[7.856s] INFO:colcon.colcon_core.shell:Creating package script '/home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/share/action_turtle_message/package.sh'
+[7.857s] INFO:colcon.colcon_core.shell:Creating package script '/home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/share/action_turtle_message/package.bash'
+[7.857s] INFO:colcon.colcon_core.shell:Creating package script '/home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/share/action_turtle_message/package.zsh'
+[7.858s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kirill/ROS/ex02/action_turtle_message/install/action_turtle_message/share/colcon-core/packages/action_turtle_message)
+[7.858s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.858s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.858s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[7.858s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.874s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.874s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.874s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.910s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.911s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kirill/ROS/ex02/action_turtle_message/install/local_setup.ps1'
+[7.913s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kirill/ROS/ex02/action_turtle_message/install/_local_setup_util_ps1.py'
+[7.918s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kirill/ROS/ex02/action_turtle_message/install/setup.ps1'
+[7.921s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kirill/ROS/ex02/action_turtle_message/install/local_setup.sh'
+[7.923s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kirill/ROS/ex02/action_turtle_message/install/_local_setup_util_sh.py'
+[7.924s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kirill/ROS/ex02/action_turtle_message/install/setup.sh'
+[7.927s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kirill/ROS/ex02/action_turtle_message/install/local_setup.bash'
+[7.929s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kirill/ROS/ex02/action_turtle_message/install/setup.bash'
+[7.932s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kirill/ROS/ex02/action_turtle_message/install/local_setup.zsh'
+[7.933s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kirill/ROS/ex02/action_turtle_message/install/setup.zsh'

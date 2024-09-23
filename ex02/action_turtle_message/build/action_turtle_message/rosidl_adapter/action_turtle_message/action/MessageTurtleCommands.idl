@@ -1,0 +1,38 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from action_turtle_message/action/MessageTurtleCommands.action
+// generated code does not contain a copyright notice
+
+
+module action_turtle_message {
+  module action {
+    @verbatim (language="comment", text=
+      "goal definition")
+    struct MessageTurtleCommands_Goal {
+      @verbatim (language="comment", text=
+        "“forward”,”turn_left”, “turn_right”")
+      string command;
+
+      @verbatim (language="comment", text=
+        "расстояние в метрах которое должна проехать черепаха")
+      int32 s;
+
+      @verbatim (language="comment", text=
+        "угол в градусах на который должна повернуть черепаха")
+      int32 angle;
+    };
+    @verbatim (language="comment", text=
+      "result definition")
+    struct MessageTurtleCommands_Result {
+      @verbatim (language="comment", text=
+        "true - черепаха выполнила команду, false - черепаха не смогла выполнить команду, например потому что выполнение команды прервали")
+      boolean result;
+    };
+    @verbatim (language="comment", text=
+      "feedback")
+    struct MessageTurtleCommands_Feedback {
+      @verbatim (language="comment", text=
+        "пройденное черепахой расстояние в метрах с момента начала выполнения команды")
+      int32 odom;
+    };
+  };
+};
