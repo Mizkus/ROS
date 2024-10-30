@@ -24,12 +24,6 @@ def generate_launch_description():
             output='screen'
         ),
         Node(
-            package='turtlesim',
-            executable='turtle_teleop_key',
-            name='teleop',
-            prefix='xterm -e'
-        ),
-        Node(
             package='ex03',
             executable='turtle1_broadcaster',
             name='broadcaster1',
