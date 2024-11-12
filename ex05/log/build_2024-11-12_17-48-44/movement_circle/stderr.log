@@ -1,5 +1,0 @@
-  File "/home/kirill/ROS/ex05/install/movement_circle/lib/python3.10/site-packages/movement_circle/circle_movement.py", line 1
-    ros_gz_simimport math
-                     ^^^^
-SyntaxError: invalid syntax
-
