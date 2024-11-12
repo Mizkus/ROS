@@ -1,0 +1,9 @@
+/home/kirill/ROS/ex03/build/robot_app/CMakeFiles/uninstall.dir
+/home/kirill/ROS/ex03/build/robot_app/CMakeFiles/robot_app_uninstall.dir
+/home/kirill/ROS/ex03/build/robot_app/CMakeFiles/test.dir
+/home/kirill/ROS/ex03/build/robot_app/CMakeFiles/edit_cache.dir
+/home/kirill/ROS/ex03/build/robot_app/CMakeFiles/rebuild_cache.dir
+/home/kirill/ROS/ex03/build/robot_app/CMakeFiles/list_install_components.dir
+/home/kirill/ROS/ex03/build/robot_app/CMakeFiles/install.dir
+/home/kirill/ROS/ex03/build/robot_app/CMakeFiles/install/local.dir
+/home/kirill/ROS/ex03/build/robot_app/CMakeFiles/install/strip.dir

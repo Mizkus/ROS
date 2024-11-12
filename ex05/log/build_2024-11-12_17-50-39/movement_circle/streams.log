@@ -1,0 +1,24 @@
+[0.850s] Invoking command in '/home/kirill/ROS/ex05/movement_circle': PYTHONPATH=/home/kirill/ROS/ex05/build/movement_circle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kirill/ROS/ex05/install/movement_circle/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/movement_circle build --build-base /home/kirill/ROS/ex05/build/movement_circle/build install --record /home/kirill/ROS/ex05/build/movement_circle/install.log --single-version-externally-managed install_data
+[1.168s] running egg_info
+[1.169s] writing ../build/movement_circle/movement_circle.egg-info/PKG-INFO
+[1.169s] writing dependency_links to ../build/movement_circle/movement_circle.egg-info/dependency_links.txt
+[1.169s] writing entry points to ../build/movement_circle/movement_circle.egg-info/entry_points.txt
+[1.170s] writing requirements to ../build/movement_circle/movement_circle.egg-info/requires.txt
+[1.170s] writing top-level names to ../build/movement_circle/movement_circle.egg-info/top_level.txt
+[1.172s] reading manifest file '../build/movement_circle/movement_circle.egg-info/SOURCES.txt'
+[1.173s] writing manifest file '../build/movement_circle/movement_circle.egg-info/SOURCES.txt'
+[1.174s] running build
+[1.174s] running build_py
+[1.174s] copying movement_circle/circle_movement.py -> /home/kirill/ROS/ex05/build/movement_circle/build/lib/movement_circle
+[1.174s] running install
+[1.175s] running install_lib
+[1.176s] copying /home/kirill/ROS/ex05/build/movement_circle/build/lib/movement_circle/circle_movement.py -> /home/kirill/ROS/ex05/install/movement_circle/lib/python3.10/site-packages/movement_circle
+[1.176s] byte-compiling /home/kirill/ROS/ex05/install/movement_circle/lib/python3.10/site-packages/movement_circle/circle_movement.py to circle_movement.cpython-310.pyc
+[1.177s] running install_data
+[1.177s] running install_egg_info
+[1.180s] removing '/home/kirill/ROS/ex05/install/movement_circle/lib/python3.10/site-packages/movement_circle-0.0.0-py3.10.egg-info' (and everything under it)
+[1.180s] Copying ../build/movement_circle/movement_circle.egg-info to /home/kirill/ROS/ex05/install/movement_circle/lib/python3.10/site-packages/movement_circle-0.0.0-py3.10.egg-info
+[1.182s] running install_scripts
+[1.207s] Installing move script to /home/kirill/ROS/ex05/install/movement_circle/lib/movement_circle
+[1.208s] writing list of installed files to '/home/kirill/ROS/ex05/build/movement_circle/install.log'
+[1.248s] Invoked command in '/home/kirill/ROS/ex05/movement_circle' returned '0': PYTHONPATH=/home/kirill/ROS/ex05/build/movement_circle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kirill/ROS/ex05/install/movement_circle/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/movement_circle build --build-base /home/kirill/ROS/ex05/build/movement_circle/build install --record /home/kirill/ROS/ex05/build/movement_circle/install.log --single-version-externally-managed install_data
