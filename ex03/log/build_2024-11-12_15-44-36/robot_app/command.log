@@ -1,4 +1,0 @@
-Invoking command in '/home/kirill/ROS/ex03/build/robot_app': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kirill/ros2_ws/install/mizkus:/opt/ros/humble /usr/bin/cmake --build /home/kirill/ROS/ex03/build/robot_app -- -j8 -l8
-Invoked command in '/home/kirill/ROS/ex03/build/robot_app' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kirill/ros2_ws/install/mizkus:/opt/ros/humble /usr/bin/cmake --build /home/kirill/ROS/ex03/build/robot_app -- -j8 -l8
-Invoking command in '/home/kirill/ROS/ex03/build/robot_app': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kirill/ros2_ws/install/mizkus:/opt/ros/humble /usr/bin/cmake --install /home/kirill/ROS/ex03/build/robot_app
-Invoked command in '/home/kirill/ROS/ex03/build/robot_app' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kirill/ros2_ws/install/mizkus:/opt/ros/humble /usr/bin/cmake --install /home/kirill/ROS/ex03/build/robot_app
